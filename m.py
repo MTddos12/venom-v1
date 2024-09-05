@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7079106583:AAHipVCFAgbqM1Pl8gS-t4bhVU0jskpbp6M')
+bot = telebot.TeleBot('6809900314:AAE_KwgvlT_Ioal6F6wSF2lB7ZWap8cX0pQ')
 
 # Admin user IDs
-admin_id = ["5577783735"]
+admin_id = ["6793413091"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy 🙇."
+        response = "You have not purchased yet purchase now from @Mtranger."
 
     bot.reply_to(message, response)
 
